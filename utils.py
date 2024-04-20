@@ -4,7 +4,7 @@ from tqdm import tqdm
 import time
 from datetime import timedelta
 
-PAD, CLS = '[PAD]', '[CLS]'  # padding符号, bert中综合信息符号
+PAD, CLS = '[PAD]', '[CLS]'  
 
 
 def build_dataset(config):
